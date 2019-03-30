@@ -12426,10 +12426,10 @@ fuzzy-search@^3.0.1:
   resolved "https://registry.yarnpkg.com/fuzzy-search/-/fuzzy-search-3.0.1.tgz#14a4964508a9607d6e9a88818e7ff634108260b6"
   integrity sha512-rjUvzdsMlOyarm0oD5k6zVQwgvt4Tb5Xe3YdIGU+Vogw54+ueAGPUTMU2B9jfPQEie5cD11i/S9J9d+MNBSQ3Q==
 
-gatsby-cli@^2.5.12:
-  version "2.5.15"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.5.15.tgz#9566c32fa768e2a265e169fdffe9d565ca69c910"
-  integrity sha512-RtXInDDqcimbMve2E7/8nvMcedMTPWPf/SnNklgA6LzzFuGJTmNEeuvo4RMQN0sFSmgo6OBbDtYFJh0zIjQ6Yw==
+gatsby-cli@^2.5.12, gatsby-cli@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.6.0.tgz#dedbf70741c0a992317f1c42552a7310379f873c"
+  integrity sha512-4olYsYiuuaCMss7cZfJV8ue8vz8gMOf3yqP3hLyz9Z9OEgJD2DngmUAMg8OgpdcBExGPzUWfJxvq15PscHZH+g==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/runtime" "^7.0.0"
@@ -12447,42 +12447,6 @@ gatsby-cli@^2.5.12:
     fs-extra "^4.0.1"
     gatsby-telemetry "^1.0.9"
     hosted-git-info "^2.6.0"
-    is-valid-path "^0.1.1"
-    lodash "^4.17.10"
-    meant "^1.0.1"
-    node-fetch "2.3.0"
-    opentracing "^0.14.3"
-    pretty-error "^2.1.1"
-    prompts "^2.0.4"
-    resolve-cwd "^2.0.0"
-    source-map "^0.5.7"
-    stack-trace "^0.0.10"
-    update-notifier "^2.3.0"
-    uuid "3.3.2"
-    yargs "^12.0.5"
-    yurnalist "^1.0.2"
-
-gatsby-cli@^2.6.0:
-  version "2.6.0-0"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.6.0-0.tgz#0d9c7eb85418d1a5f654d27bd95658a5ed96212f"
-  integrity sha512-6zngxg0UfrLmmyG3ifq3aqRUHGo+FvgjzDhxufLGLuPM4aCpvGAMBFUf6/Xu1xR5enpAT0homoktjEwd/ADdSg==
-  dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "@babel/runtime" "^7.0.0"
-    bluebird "^3.5.0"
-    chalk "^2.4.2"
-    ci-info "^2.0.0"
-    clipboardy "^1.2.3"
-    common-tags "^1.4.0"
-    configstore "^4.0.0"
-    convert-hrtime "^2.0.0"
-    core-js "^2.5.0"
-    envinfo "^5.8.1"
-    execa "^0.8.0"
-    fs-exists-cached "^1.0.0"
-    fs-extra "^4.0.1"
-    gatsby-telemetry "^1.0.7"
-    hosted-git-info "^2.6.0"
     ink "^2.0.5"
     ink-spinner "^3.0.1"
     is-valid-path "^0.1.1"
@@ -12495,12 +12459,14 @@ gatsby-cli@^2.6.0:
     prompts "^2.0.4"
     react "^16.8.4"
     resolve-cwd "^2.0.0"
+    semver "^6.0.0"
     source-map "^0.5.7"
     stack-trace "^0.0.10"
     strip-ansi "^5.2.0"
     update-notifier "^2.3.0"
     uuid "3.3.2"
     yargs "^12.0.5"
+    yurnalist "^1.0.5"
 
 gatsby-link@^2.1.1:
   version "2.1.1"
@@ -12697,7 +12663,7 @@ gatsby-source-rss-feed@^1.1.1:
     lodash "^4.17.11"
     rss-parser "^3.6.2"
 
-gatsby-telemetry@^1.0.7, gatsby-telemetry@^1.0.9:
+gatsby-telemetry@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.0.9.tgz#f9192d5bf72fb239d477e9b556a7dc040c4a566b"
   integrity sha512-+cGndnWyL86RkYo+FGjbzfXaUAFOu7IgOcVjoxVOeUdNgp3FZ+sNV11wJpe+vY6PjeNjPA/2pqQ4c0dDPyv7EQ==
@@ -29158,7 +29124,7 @@ yoga-layout-prebuilt@^1.9.3:
   resolved "https://registry.yarnpkg.com/yoga-layout-prebuilt/-/yoga-layout-prebuilt-1.9.3.tgz#11e3be29096afe3c284e5d963cc2d628148c1372"
   integrity sha512-9SNQpwuEh2NucU83i2KMZnONVudZ86YNcFk9tq74YaqrQfgJWO3yB9uzH1tAg8iqh5c9F5j0wuyJ2z72wcum2w==
 
-yurnalist@^1.0.2:
+yurnalist@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/yurnalist/-/yurnalist-1.0.5.tgz#98534ddc1330e1316684981f53cba879ffc07a28"
   integrity sha512-EuLjqX3Q15iVM0UtZa5Ju536uRmklKd2kKhdE5D5fIh8RZmh+pJ8c6wj2oGo0TA+T/Ii2o79cIHCTMfciW8jlA==
